@@ -89,9 +89,6 @@ table1 <- CreateTableOne(vars = vars, strata = "ASDEV_C", data = childtable1, fa
 
 print(table1)
 
-# Rafael: add to table 1: age, and parental highest level of education , can keep ADHD
-
-
 table_one_printed <- print(table1,
                            # For categorical variables, how many decimal places to display?
                            catDigits = 1,
